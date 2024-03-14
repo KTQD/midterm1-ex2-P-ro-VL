@@ -9,7 +9,7 @@ public class Main {
     String[] words = s.split(" ");
     for(String word : words) {
         String lowerCase = word.toLowerCase();
-        if(countMap.containsKey(lowerCase) {
+        if(countMap.containsKey(lowerCase)) {
             int oldCount = countMap.get(lowerCase);
             countMap.put(lowerCase, oldCount + 1);
         } else {
